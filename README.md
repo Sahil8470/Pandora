@@ -1,1 +1,2 @@
 # Pandora
+Project Pandora focuses on pacifying the mind of an individual battling with anxiety and depression. The features of our site span through a spectrum of exercises, affirmations and mind-soothing sounds of nature. We have planned to draw up an itinerary including a set of tasks of quotidian to help calm the mind of a said stressed individual. We have also introduced a chat feature which will provide fertile grounds for positive communication between our user and an authenticated volunteer (with a psychology background).
