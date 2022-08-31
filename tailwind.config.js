@@ -2,7 +2,14 @@
 module.exports = {
     content: ["./*.{html,js}"],
     theme: {
-        extend: {},
+        colors: {
+            White: "#ffffff",
+        },
+        extend: {
+            backgroundImage: {
+                "header-bgimage": "url('../images/header-image.png')",
+            },
+        },
     },
     plugins: [],
 };
