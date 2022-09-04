@@ -59,3 +59,121 @@
     font-family: 'Playfair Display', serif;
     font-size: 4vw;
 }
+
+/* Our Info */
+.info {
+    display: flex;
+    justify-content: center;
+    background-color: #F9F5EB;
+}
+
+.info-content {
+    padding: 7% 0 0 5%;
+    flex-shrink: 2;
+}
+
+.info-content h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.info-content p {
+    width: 60%;
+    padding-top: 3%;
+    font-family: 'Lora', serif;
+    color: #5C5C5C;
+    font-size: 1.3rem;
+}
+
+.info-content p strong {
+    color: black;
+}
+
+.info-img {
+    padding-top: 7%;
+    padding-right: 5%;
+}
+
+.info-img img {
+    height: 75%;
+}
+
+/* Mind Exercises */
+.mind-exercises {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #42855B;
+    padding-bottom: 5%;
+}
+
+.mind-exercises-content {
+    padding: 7% 0 0 15%;
+    flex-shrink: 2;
+    color: white;
+}
+
+.mind-exercises-content h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mind-exercises-content p {
+    width: 70%;
+    padding-top: 3%;
+    font-family: 'Lora', serif;
+    font-size: 1.3rem;
+}
+
+.mind-exercises-img {
+    padding-top: 7%;
+    padding-left: 6%;
+}
+
+.mind-exercises-img img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Button */
+
+.button{
+    display: block;
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    margin-top: 5%;
+    color: white;
+    border-color: white;
+}
+  
+.button span{
+    position: relative;
+    z-index: 2;
+}
+  
+.button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #174829;
+    transition: all .35s;
+}
+  
+.button:hover{
+    color: #fff;
+}
+  
+.button:hover:after{
+   width: 100%;
+}

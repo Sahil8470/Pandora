@@ -11,9 +11,6 @@ module.exports = {
         colors: {
             white: "#ffffff",
         },
-        fontSize: {
-            "8xl": "6rem",
-        },
         extend: {
             backgroundImage: {
                 "header-bgimage": "url('../images/header-image.png')",
