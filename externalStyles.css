@@ -126,6 +126,7 @@
 .mind-exercises-img {
     padding-top: 7%;
     padding-left: 6%;
+    width: 27%;
 }
 
 .mind-exercises-img img {
@@ -135,7 +136,7 @@
 
 /* Button */
 
-.button{
+.button {
     display: block;
     width: 20%;
     height: 40px;
@@ -154,12 +155,12 @@
     border-color: white;
 }
   
-.button span{
+.button span {
     position: relative;
     z-index: 2;
 }
   
-.button:after{
+.button:after {
     position: absolute;
     content: "";
     top: 0;
@@ -170,10 +171,108 @@
     transition: all .35s;
 }
   
-.button:hover{
+.button:hover {
     color: #fff;
 }
   
-.button:hover:after{
+.button:hover:after {
    width: 100%;
+}
+
+/* Relaxing Content */
+.relaxing {
+    display: flex;
+    justify-content: center;
+    background-color: #F9F5EB;
+}
+
+.relaxing-content {
+    padding: 7% 0 0 5%;
+    flex-shrink: 0;
+    width: 70%;
+}
+
+.relaxing-content h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.relaxing-content p {
+    width: 65%;
+    padding-top: 3%;
+    font-family: 'Lora', serif;
+    color: #5C5C5C;
+    font-size: 1.3rem;
+}
+
+.relaxing-img {
+    padding-top: 7%;
+    padding-right: 5%;
+}
+
+.relaxing-img img {
+    height: 70%;
+}
+
+/* Button for relaxing content */
+.relaxing .button {
+    color: black;
+    border:2px solid black;
+    width: 19%;
+    height: 39px;
+}
+
+.relaxing .button:after {
+    background: #2E2715;   
+}
+
+.relaxing .button:hover {
+    color: white;
+}
+
+/* Chat feature */
+.chat {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #42855B;
+    padding-bottom: 5%;
+}
+
+.chat-content {
+    padding: 7% 0 0 15%;
+    flex-shrink: 2;
+    color: white;
+}
+
+.chat-content h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.chat-content p {
+    width: 70%;
+    padding-top: 3%;
+    font-family: 'Lora', serif;
+    font-size: 1.3rem;
+}
+
+.chat-img {
+    padding-top: 7%;
+    padding-left: 6%;
+    width: 27%;
+}
+
+.chat-img img {
+    height: 95%;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-top: 3%;
+    background-color: #E4E2FB;
+}
+
+footer i {
+    padding: 0 2% 2% 2%;
 }
