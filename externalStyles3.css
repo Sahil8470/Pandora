@@ -1,0 +1,109 @@
+/* Header */
+.header {
+    background-image: url('images/header-image-3.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-right: 9rem;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+/* Logo */
+.logo-2 {
+    display: flex;
+    align-items: center;
+}
+
+.logo-2 img {
+    padding-left: 3vw;
+    padding-bottom: 6vw;
+}
+
+.nav {
+    padding-left: 30%;
+}
+
+.nav-lists{
+    color: white;
+    float: left;
+    margin-left: 4.5rem;
+    margin-bottom: 4.5rem;
+    padding: 6rem 3rem 0 0;
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-lists a {
+    font-size: 1.4rem;
+}
+
+/* Tagline */
+.tagline {
+    color: white;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 22%;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5vw;
+    width: 85%;
+}
+
+h3{
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+h4{
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.list{
+    color: #42855B;
+    font-size: 30px;
+    padding-left: 50px;
+    font-family: 'Quicksand' sans-serif;
+}
+
+.list-2{
+    color: #42855B;
+    font-size: 30px;
+    padding-right: 50px;
+    padding-bottom: 5%;
+    text-align: right;
+    font-family: 'Quicksand' sans-serif;
+    
+}
+
+.info-content{
+    background-color: #c3e9df;
+    
+}
+
+footer {
+    text-align: center;
+    padding-top: 3%;
+    background-color: #E4E2FB;
+}
+
+footer i {
+    padding: 0 2% 2% 2%;
+}
+
