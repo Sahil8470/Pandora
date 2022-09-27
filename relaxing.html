@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pandora</title>
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="styles/output.css" />
+        <link rel="stylesheet" href="externalStyles3.css" />
+
+        <!-- Font Styles -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@500&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/4de756c72f.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <!-- navbar -->
+            <div class="navbar">
+                <!-- Logo -->
+                <div class="logo">
+                    <img
+                        src="images/Pandora_logo.webp"
+                        alt="Pandora"
+                        style="height: 20vw"
+                        id="logo"
+                    />
+                </div>
+
+                <!-- Navigation -->
+                <ul class="nav">
+                    <li class="nav-lists">
+                        <a href="#music">Music</a>
+                    </li>
+                    <li class="nav-lists">
+                        <a href="#podcast">Podcasts</a>
+                    </li>
+                    <li class="nav-lists">
+                        <a href="#ted">Videos</a>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar2 bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+
+            <div class="tagline">
+                <h1>RELAXING CONTENT</h1>
+            </div>
+        </div>
+        <div class="content">
+            <!-- Music -->
+            <div class="music" id="music">
+                <div class="music-content">
+                    <h3 class="music-head">Music</h3>
+                    <p class="music-text">
+                        Collection of peaceful sounds of nature and transient
+                        music that help pacify your thoughts and rejuvenate your
+                        life.
+                    </p>
+                </div>
+                <img
+                    src="images/music-img.png"
+                    alt="music-img"
+                    class="music-img"
+                />
+            </div>
+            <div class="spotify-embed">
+                <iframe
+                    style="border-radius: 12px; margin-top: 3%"
+                    src="https://open.spotify.com/embed/playlist/1aPaiwKwyRkGthY84W2GP3?utm_source=generator&theme=0"
+                    width="60%"
+                    height="380"
+                    frameborder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                ></iframe>
+            </div>
+
+            <!-- Podcast -->
+            <div class="podcast" id="podcast">
+                <div class="podcast-content">
+                    <h3 class="podcast-head">Podcasts</h3>
+                    <p class="podcast-text">
+                        Listen to podcasts, get pointers, learn new things about
+                        yourself and your experience.
+                    </p>
+                </div>
+                <img
+                    src="images/podcast-img.png"
+                    alt="podcast-img"
+                    class="podcast-img"
+                />
+            </div>
+            <div class="spotify-embed">
+                <iframe
+                    style="border-radius: 12px; margin-top: 3%"
+                    src="https://open.spotify.com/embed/episode/5mwsK0LnJtZHhIzu8xdpG8?utm_source=generator&theme=0"
+                    width="30%"
+                    height="352"
+                    frameborder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                ></iframe>
+                <iframe
+                    style="border-radius: 12px; margin: 3% 0 0 7%"
+                    src="https://open.spotify.com/embed/episode/2mGQvvinfHaUpwU04vgC8g?utm_source=generator&theme=0"
+                    width="30%"
+                    height="352"
+                    frameborder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                ></iframe>
+            </div>
+
+            <!-- Videos and ted-talks -->
+            <div class="ted" id="ted">
+                <div class="ted-content">
+                    <h3 class="ted-head">Videos and Ted-Talks</h3>
+                    <p class="ted-text">
+                        Videos that will be your daily remedy, ted talks and a
+                        lot more
+                    </p>
+                </div>
+                <img src="images/ted-img.png" alt="ted-img" class="ted-img" />
+            </div>
+            <div class="youtube-embed">
+                <iframe
+                    style="margin: 3% 0 4% 0"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/MB5IX-np5fE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+                <iframe
+                    style="margin: 3% 0 4% 7%"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/ZidGozDhOjg"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>connect with us</p>
+            <br />
+            <i class="fa-brands fa-twitter fa-lg"></i>
+            <i class="fa-brands fa-github fa-lg"></i>
+            <i class="fa-brands fa-instagram fa-lg"></i>
+            <br />
+            <p>Copyright @Pandora 2022</p>
+        </footer>
+        <script src="relaxing.js"></script>
+    </body>
+</html>

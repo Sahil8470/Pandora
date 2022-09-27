@@ -1,6 +1,6 @@
 /* Header */
 .header {
-    background-image: url('images/header-image2.png');
+    background-image: url("images/header-image2.png");
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -16,12 +16,10 @@
     min-width: 100%;
 }
 
-
 /* Logo */
 .logo {
     display: flex;
     align-items: center;
-    
 }
 
 .logo img {
@@ -29,7 +27,7 @@
     padding-bottom: 6vw;
 }
 
-.nav{
+.nav {
     margin-left: 20rem;
 }
 
@@ -46,7 +44,6 @@
 .nav-lists a {
     color: white;
     font-size: 1.4rem;
-    
 }
 
 /* Tagline */
@@ -56,7 +53,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 5rem;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 4vw;
 }
 
@@ -64,7 +61,7 @@
 .info {
     display: flex;
     justify-content: center;
-    background-color: #F9F5EB;
+    background-color: #f9f5eb;
 }
 
 .info-content {
@@ -73,14 +70,14 @@
 }
 
 .info-content h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 .info-content p {
     width: 60%;
     padding-top: 3%;
-    font-family: 'Lora', serif;
-    color: #5C5C5C;
+    font-family: "Lora", serif;
+    color: #5c5c5c;
     font-size: 1.3rem;
 }
 
@@ -95,6 +92,7 @@
 
 .info-img img {
     height: 75%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* Mind Exercises */
@@ -102,7 +100,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    background-color: #42855B;
+    background-color: #42855b;
     padding-bottom: 5%;
 }
 
@@ -113,13 +111,13 @@
 }
 
 .mind-exercises-content h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 .mind-exercises-content p {
     width: 70%;
     padding-top: 3%;
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     font-size: 1.3rem;
 }
 
@@ -132,6 +130,7 @@
 .mind-exercises-img img {
     height: 100%;
     border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* Button */
@@ -149,17 +148,17 @@
     letter-spacing: 2px;
     text-align: center;
     position: relative;
-    transition: all .35s;
+    transition: all 0.35s;
     margin-top: 5%;
     color: white;
     border-color: white;
 }
-  
+
 .button span {
     position: relative;
     z-index: 2;
 }
-  
+
 .button:after {
     position: absolute;
     content: "";
@@ -168,22 +167,22 @@
     width: 0;
     height: 100%;
     background: #174829;
-    transition: all .35s;
+    transition: all 0.35s;
 }
-  
+
 .button:hover {
     color: #fff;
 }
-  
+
 .button:hover:after {
-   width: 100%;
+    width: 100%;
 }
 
 /* Relaxing Content */
 .relaxing {
     display: flex;
     justify-content: center;
-    background-color: #F9F5EB;
+    background-color: #f9f5eb;
 }
 
 .relaxing-content {
@@ -193,14 +192,14 @@
 }
 
 .relaxing-content h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 .relaxing-content p {
     width: 65%;
     padding-top: 3%;
-    font-family: 'Lora', serif;
-    color: #5C5C5C;
+    font-family: "Lora", serif;
+    color: #5c5c5c;
     font-size: 1.3rem;
 }
 
@@ -211,18 +210,19 @@
 
 .relaxing-img img {
     height: 70%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* Button for relaxing content */
 .relaxing .button {
     color: black;
-    border:2px solid black;
+    border: 2px solid black;
     width: 19%;
     height: 39px;
 }
 
 .relaxing .button:after {
-    background: #2E2715;   
+    background: #2e2715;
 }
 
 .relaxing .button:hover {
@@ -234,7 +234,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    background-color: #42855B;
+    background-color: #42855b;
     padding-bottom: 5%;
 }
 
@@ -245,13 +245,13 @@
 }
 
 .chat-content h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 .chat-content p {
     width: 70%;
     padding-top: 3%;
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     font-size: 1.3rem;
 }
 
@@ -264,13 +264,14 @@
 .chat-img img {
     height: 95%;
     border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding-top: 3%;
-    background-color: #E4E2FB;
+    background-color: #e4e2fb;
 }
 
 footer i {

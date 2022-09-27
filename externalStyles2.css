@@ -1,0 +1,164 @@
+/* Header */
+.header {
+    background-image: url("images/header-image-3.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-right: 9rem;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+/* Logo */
+.logo-2 {
+    display: flex;
+    align-items: center;
+}
+
+.logo-2 img {
+    padding-left: 3vw;
+    padding-bottom: 6vw;
+}
+
+.nav {
+    padding-left: 30%;
+}
+
+.nav-lists {
+    color: white;
+    float: left;
+    margin-left: 4.5rem;
+    margin-bottom: 4.5rem;
+    padding: 6rem 3rem 0 0;
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-lists a {
+    font-size: 1.4rem;
+}
+
+/* Tagline */
+.tagline {
+    color: white;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 22%;
+    font-family: "Playfair Display", serif;
+    font-size: 3.5vw;
+    width: 85%;
+}
+
+.info-content {
+    background-color: #c3e9df;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.info-content-exercises {
+    width: 100%;
+}
+
+.break {
+    flex-basis: 100%;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.info-content-todo {
+    margin-left: 75%;
+}
+
+.info-head-exercises {
+    color: white;
+    font-size: 3rem;
+    padding: 3rem 0 1rem 3rem;
+    font-family: "Playfair Display", serif;
+}
+
+.info-head-todo {
+    color: white;
+    font-size: 3rem;
+    padding-top: 2rem;
+    font-family: "Playfair Display", serif;
+}
+
+.info-content-exercises ul {
+    color: #42855b;
+    font-size: 1.8rem;
+    padding-left: 3rem;
+    font-family: "Quicksand" sans-serif;
+}
+
+.info-content-exercises li {
+    padding: 1rem 0;
+}
+
+.info-content-todo li {
+    padding: 1rem 0;
+}
+
+.info-content-todo ul {
+    color: #42855b;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: "Quicksand" sans-serif;
+}
+
+.content-on-hover {
+    font-size: 1.3rem;
+    padding: 1% 1% 1% 2%;
+    color: #757575;
+}
+
+#hidden-content-1 {
+    background-color: #ffff;
+    width: 40%;
+    border-radius: 20px;
+}
+#hidden-content-2 {
+    background-color: #ffff;
+    width: 40%;
+    border-radius: 20px;
+}
+#hidden-content-3 {
+    background-color: #ffff;
+    width: 40%;
+    border-radius: 20px;
+}
+#hidden-content-4 {
+    background-color: #ffff;
+    /* width: 40%; */
+    border-radius: 20px;
+}
+#hidden-content-5 {
+    background-color: #ffff;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding-top: 3%;
+    background-color: #e4e2fb;
+}
+
+footer i {
+    padding: 0 2% 2% 2%;
+}

@@ -1,6 +1,6 @@
 /* Header */
 .header {
-    background-image: url('images/header-image-3.png');
+    background-image: url("images/header-image-4.png");
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -17,25 +17,23 @@
 }
 
 /* Logo */
-.logo-2 {
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo-2 img {
+.logo img {
     padding-left: 3vw;
     padding-bottom: 6vw;
 }
 
 .nav {
-    padding-left: 30%;
+    margin-left: 20rem;
 }
 
-.nav-lists{
-    color: white;
+.nav-lists {
     float: left;
     margin-left: 4.5rem;
-    margin-bottom: 4.5rem;
     padding: 6rem 3rem 0 0;
     font-size: 30px;
     list-style: none;
@@ -44,66 +42,128 @@
 }
 
 .nav-lists a {
+    color: white;
     font-size: 1.4rem;
 }
 
 /* Tagline */
 .tagline {
     color: white;
-    text-align: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 5rem;
-    padding-left: 22%;
-    font-family: 'Playfair Display', serif;
-    font-size: 3.5vw;
-    width: 85%;
+    font-family: "Playfair Display", serif;
+    font-size: 4vw;
 }
 
-h3{
-    color: white;
-    font-size: 50px;
-    padding: 50px;
-    font-family: 'Playfair Display', serif;
+/* Content */
+.content {
+    background-color: #b17ff0;
+    color: #fff;
 }
 
-h4{
-    color: white;
-    font-size: 50px;
-    padding: 50px;
-    text-align: right;
-    font-family: 'Playfair Display', serif;
+/* Music */
+.music {
+    display: flex;
 }
 
-
-.list{
-    color: #42855B;
-    font-size: 30px;
-    padding-left: 50px;
-    font-family: 'Quicksand' sans-serif;
+.music-head {
+    font-size: 2.4rem;
+    padding: 7% 0 2% 9%;
+    font-family: "Quicksand", sans-serif;
 }
 
-.list-2{
-    color: #42855B;
-    font-size: 30px;
-    padding-right: 50px;
-    padding-bottom: 5%;
-    text-align: right;
-    font-family: 'Quicksand' sans-serif;
-    
+.music-content {
+    width: 72%;
 }
 
-.info-content{
-    background-color: #c3e9df;
-    
+.music-text {
+    font-size: 1.5rem;
+    padding-left: 9%;
+    width: 50%;
+    font-family: "Montserrat", sans-serif;
 }
 
+.music-img {
+    padding: 7% 2% 0 0;
+    width: 17%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Podcasts */
+.podcast {
+    display: flex;
+}
+
+.podcast-head {
+    font-size: 2.4rem;
+    padding: 7% 0 2% 9%;
+    font-family: "Quicksand", sans-serif;
+}
+
+.podcast-content {
+    width: 72%;
+}
+
+.podcast-text {
+    font-size: 1.5rem;
+    padding-left: 9%;
+    width: 50%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.podcast-img {
+    padding: 7% 2% 0 0;
+    width: 17%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.spotify-embed {
+    display: flex;
+    justify-content: center;
+}
+
+/* Videos and ted talks */
+.ted {
+    display: flex;
+}
+
+.ted-head {
+    font-size: 2.4rem;
+    padding: 7% 0 2% 9%;
+    font-family: "Quicksand", sans-serif;
+}
+
+.ted-content {
+    width: 72%;
+}
+
+.ted-text {
+    font-size: 1.5rem;
+    padding-left: 9%;
+    width: 50%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ted-img {
+    padding: 7% 2% 0 0;
+    width: 17%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.youtube-embed {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding-top: 3%;
-    background-color: #E4E2FB;
+    background-color: #e4e2fb;
 }
 
 footer i {
     padding: 0 2% 2% 2%;
 }
-
