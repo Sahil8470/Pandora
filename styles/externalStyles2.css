@@ -1,6 +1,6 @@
 /* Header */
 .header {
-    background-image: url("images/header-image-3.png");
+    background-image: url("../images/header-image-3.png");
     height: 100vh;
     width: 100%;
     background-size: cover;
