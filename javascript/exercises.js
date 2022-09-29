@@ -1,6 +1,6 @@
 // for a clickable logo
 document.querySelector("#logo").onclick = function () {
-    location.href = "index.html";
+    location.href = "../index.html";
 };
 
 const hidden = [".li1", ".li2", ".li3", ".li4", ".li5"];
